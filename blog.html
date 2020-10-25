@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+	<!-- Navbar Begin -->
+	<div class="row">
+		<div class="col-md-12">
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a class="active" href="blog.html">Blog</a></li>
+				<li><a href="dashboard.html">Dashboard</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	<!-- Manomboka eto ny leftpart -->
+		<div class="col-md-3">
+			<h3>Tous les articles</h3>
+			<div class="liste">
+				<ul class="list-group">
+					<li class="list-group item"><a href="blog.html">Pas d’âge pour apprendre à coder</a></li>
+					<li class="list-group item"><a href="blog.html">Introduction à AngularJS</a></li>
+					<li class="list-group item"><a href="blog.html">Les meilleurs outils du développeur en JS/react 2020</a></li>
+					<li class="list-group item"><a href="blog.html">Monitorer son début internet</a></li>
+					<li class="list-group item"><a href="blog.html">Anémie du domaine</a></li>
+
+				</ul>
+			</div>
+		</div>
+<!-- Manomboka eto ny middlepart -->
+	<div class="col-md-6">
+		<div class="row">
+			<div class="col-md-9" style="background-color:lightgrey;border-radius:10px">
+				<h3>Introduction à AngularJS</h3>
+				<p><i><u>18 Octobre 2020</u></i></p>
+				<p>AngularJS est un framework JavaScript open-source qui a vu le jour en 2009 et dont le père Miško Hevery est un expert Web autour des technologies Java et JavaScript, travaillant chez Google. <br>
+				Construire une application web avec une interface utilisateur complexe devient très difficile en utilisant uniquement des librairies telles que jQuery. AngularJS facilite la création et la maintenance des applications, et accélère le développement JavaScript/AJAX. Il permet la création d’applications web monopage (single-page application) et apporte aux applications Web côté client les services traditionnellement apportés côté serveur, rendant de ce fait les applications Web beaucoup plus légères.
+				</p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+		<div class row>
+			<div class="col-mid-9">
+			<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-9" style="background-color:white;border-radius:10px border:solid 1px ">
+				<h3>Les meilleurs outils du développeur en JS/react 2020</h3>
+				<p><i><u>06 Octobre 2020</u></i></p> 
+				<p>Que serait Batman sans ses Bat-gadgets ? Toujours un détective de génie et un combattant redoutable… mauvais exemple… Que serait l’homme sans les outils ? Juste un Néandertalien, ou pire un Homo erectus. Ah oui là ça marche.
+				Tout ça pour dire que depuis la nuit des temps les hommes et femmes développent des outils pour grandement se faciliter la vie.
+				Le but de cette article est de vous présenter les meilleurs outils pour tous les Homo Reactus appelés aussi “développeurs et développeuses JS/React”.
+				UN ORDINATEUR, DUH !
+				Je ne vais pas vous faire l’affront de vous dire ce qu’est un ordinateur. Mais le mieux est bien sûr de vous équiper de votre bécane adorée avec votre OS favori, car oui il n’y a pas de distribution obligatoire pour travailler avec JS et React. Même sur windows c’est possible…</p>
+			</div>
+		</div>
+		<div class row>
+			<div class="col-mid-9">
+			<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-9"style="background-color:lightgrey;border-radius:10px">
+				<h3>Monitorer son début internet</h3>
+				<p><i><u>23 Septembre 2020</u></i></p>
+				<p>Il y a quelques mois j’ai changé de contrat internet à mon domicile, passant par la même occasion sur la fibre. Passé l’excitation d’une connexion beaucoup plus rapide, j’ai commencé à ressentir de la frustration à la moindre petite latence. Par  curiosité, j’ai voulu déterminer si ces latences étaient psychologiques ou bien réelles en testant régulièrement ma connexion internet avec speedtest.net pour finalement me dire qu’une automatisation était certainement possible.
+				Après quelques recherches et la découverte de l’utilitaire speedtest-cli, le projet était lancé.
+				L’objectif étant de récupérer à intervalle régulier, d’historiser et de consulter ces mesures.</p>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+		<div class row>
+			<div class="col-mid-9">
+			<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3"></div>
+				<div class="col-md-9" style="background-color:white;border-radius:10px border:solid 1px">
+					<h3>Anémie du domaine</h3>
+					<p><i><u>30 Août 2020</u></i></p> 
+					<p>Aujourd’hui j’aimerais parler de quelque chose que l’on voit souvent dans les applications : l’anémie du domaine.
+					Qu’est-ce donc? C’est simplement le fait que les objects responsables de la modélisation de votre logique métier… n’en contiennent pas. Cela paraît étrange n’est-ce pas ? Prenons un exemple pour mieux comprendre ce que j’entends par là.
+					Imaginons que vous souhaitiez ajouter un nouvel article à votre blog. Dans une application classique, vous utiliseriez votre ORM favori pour insérer votre toute nouvelle entité dans votre bas de données. Vous avez un controller gérant votre requête HTTP, et enfin un service qui crééra votre nouvelle entité Article, avec toutes les propriétés qui vont bien.
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+<!-- Manomboka eto ny rightpart -->
+	<div class="col-md-3">
+			<form>
+				<p><b><u>Créer un nouveau article:</u></b></p>
+				<label>Titre</label>
+				<input type="text" name="titre" placeholder="Placer le titre">
+				<label>Date de création</label>
+				<input type="date" name="date">
+				<label>Contenu</label>
+				<textarea placeholder="votre article ici"></textarea>
+				<div id="button">
+					<button type="submit">Créer</button>
+				</div>
+			</form>
+		</div>
+	</div>
+<!-- Manomboka eto ny footer -->
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-2" style="text-align:left">
+					<h6>Adresse</h6> <br>8 Place du marché<br>Neuilly-sur-seine - 92 200 <br>France
+				</div>
+				<div class="col-md-8">
+					Developped with love by lova &copy	
+				</div>
+				<div class="col-md-2" style="text-align:left">
+					<h6>Contact</h6>
+					<p>Tel:0342302413/0331208307 <br>Email: lovanirinat@gmail.com <br><a href="">www.lova.com</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
